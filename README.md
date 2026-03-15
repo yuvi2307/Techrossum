@@ -1,6 +1,8 @@
 # Smart Inventory Management System
 
-A web-based inventory and sales management system built using Flask and SQLite.
+## Project Description
+
+A web-based inventory and sales management system designed to help small retail stores track stock, record sales, and analyze product performance.
 
 ## Features
 
@@ -27,6 +29,27 @@ Database
 
 ORM
 - SQLAlchemy
+
+## Project Structure
+
+smart-inventory-management-system
+│
+├── app.py
+├── models.py
+├── requirements.txt
+├── README.md
+│
+├── templates/
+│   ├── base.html
+│   ├── dashboard.html
+│   ├── products.html
+│   ├── create_bill.html
+│   ├── sales.html
+│   └── bill_detail.html
+│
+├── static/
+│   └── style.css
+
 
 ## How to Run the Project
 
